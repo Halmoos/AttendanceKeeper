@@ -1,5 +1,5 @@
 # AttendanceKeeper
-A simple attendance tool for classes using Tkinter UI.
+A simple attendance tool to save students' attendance using Tkinter UI.
 
 This was an assignment in one of my programming classes.
 There is a sample student's list provided for testing the code.
