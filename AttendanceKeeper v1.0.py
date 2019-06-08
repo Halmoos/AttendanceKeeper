@@ -6,11 +6,10 @@ from xlwt import Workbook
 
 class Student:
     def __init__(self, id, name, department, section):
-        self.name = name
         self.id = id
         self.department = department
         self.section = section
-        (self.first_name, self.surname) = self.name.split(' ', 1)  # splitting the name by first space only
+        (self.first_name, self.surname) = name.split(' ', 1)  # splitting the name by first space only
 
     def __repr__(self):  # class representation
         return self.surname + ', ' + self.first_name + ', ' + str(self.id)
